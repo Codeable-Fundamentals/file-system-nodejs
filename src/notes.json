@@ -4,6 +4,10 @@
   { "id": 3, "content": "Estudiar JavaScript" },
   { "id": 4, "content": "Hacer las compras" },
   { "id": 5, "content": "Limpiar mi habitación" },
-  { "id": 6, "content": "Almorzar a tiempo" }
+  { "id": 6, "content": "Almorzar a tiempo" },
+  { "id": 7, "content": "Hacer ejercicio" },
+  { "id": 8, "content": "Leer un libro" },
+  { "id": 123, "content": "Nueva nota 123" },
+  { "id": 123, "content": "Nueva nota 123" },
+  { "id": 1234, "content": "Nueva nota 123" }
 ]
-
