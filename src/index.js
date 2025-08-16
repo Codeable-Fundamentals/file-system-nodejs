@@ -1,6 +1,22 @@
 import fs from "node:fs";
 import { console } from "node:inspector";
 
+import http from "node:http";
+
+const requestListener = (req, res) => {
+  res.end(
+    JSON.stringify({
+      note: "Respuesta del servidor",
+      code: 200,
+    })
+  );
+};
+
+const server = http.createServer(requestListener, () => {
+  console.log("Se esta corriendo el servidor en puerto 8000");
+});
+server.listen(8000);
+
 // EJEMPLO DE LECTURA DE UN ARCHIVO JSON
 // fs.readFile("./src/notes.json","utf8", (err, content) => {
 //   if (err) {
